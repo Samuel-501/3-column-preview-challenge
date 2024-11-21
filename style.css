@@ -1,0 +1,100 @@
+
+body{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 12%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.part1{
+    background: hsl(31, 77%, 52%);
+    padding-left: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 15%;
+    padding-top: 15%;
+}
+
+.part1 p{
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 23px;
+    border-spacing: 30px;
+}
+
+.part1 #p1{
+    font-size: 40px;
+    font-family: "Big Shoulders Display", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.part1 button{
+    color: hsl(31, 77%, 52%);
+    margin-left: 30px;
+}
+.part2{
+    background: hsl(184, 100%, 22%);
+    padding-left: 35px;
+    padding-top: 15%;
+}
+
+.part2 p{
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 23px;
+    border-spacing: 30px;
+}
+
+.part2 button{
+    color: hsl(184, 100%, 22%);
+    margin-left: 30px;
+}
+.part2 #p3{
+    font-size: 40px;
+    font-family: "Big Shoulders Display", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.part3{
+    background: hsl(179, 100%, 13%);
+    padding-left: 35px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 15%;
+}
+
+.part3 button{
+    color: hsl(179, 100%, 13%);
+    margin-left: 30px;
+}
+.part3 p{
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 23px;
+    border-spacing: 30px;
+}
+
+.part3 #p5{
+    font-size: 40px;
+    font-family: "Big Shoulders Display", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+button{
+    background: hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 42%;
+    border: 1px transparent;
+    font-family: "Lexend Deca", sans-serif;
+}
